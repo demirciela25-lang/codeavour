@@ -33,6 +33,7 @@ def create_reduced_dataset(src_root, dst_root, max_images=2000):
 
 # 🔹 CHANGE THESE PATHS
 create_reduced_dataset("codeavour/domates/tomato_dataset/tomato_dataset_in/train", "codeavour/domates/tomato_dataset/tomato_dataset_in/train_small", 2000)
+create_reduced_dataset("codeavour/domates/tomato_dataset/tomato_dataset_in/valid", "codeavour/domates/tomato_dataset/tomato_dataset_in/valid_small", 2000)
 create_reduced_dataset("codeavour/domates/tomato_dataset/tomato_dataset_in/test", "codeavour/domates/tomato_dataset/tomato_dataset_in/test_small", 2000)
 
 print("Reduced dataset created.")
