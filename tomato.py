@@ -15,8 +15,8 @@ print("Using device:", device)
 # Dataset Paths
 # ========================
 base_path = "domates/tomato_dataset/tomato_dataset_in"
-train_dir = os.path.join(base_path, "train")
-val_dir = os.path.join(base_path, "valid")
+train_dir = os.path.join(base_path, "train_small")
+val_dir = os.path.join(base_path, "valid_small")
 
 # ========================
 # Transforms
