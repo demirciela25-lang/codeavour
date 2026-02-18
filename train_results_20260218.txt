@@ -1,0 +1,849 @@
+Using device: cpu
+Classes: ['Tomato___Bacterial_spot', 'Tomato___Early_blight', 'Tomato___Late_blight', 'Tomato___Leaf_Mold', 'Tomato___Septoria_leaf_spot', 'Tomato___Spider_mites Two-spotted_spider_mite', 'Tomato___Target_Spot', 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'Tomato___Tomato_mosaic_virus', 'Tomato___healthy']
+C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+
+============================================================
+Starting Epoch [1/10]
+============================================================
+Training phase...
+  Batch [10/574] - Loss: 2.0427
+  Batch [20/574] - Loss: 1.8361
+  Batch [30/574] - Loss: 1.2089
+  Batch [40/574] - Loss: 1.1782
+  Batch [50/574] - Loss: 1.1571
+  Batch [60/574] - Loss: 1.0838
+  Batch [70/574] - Loss: 1.1212
+  Batch [80/574] - Loss: 0.9865
+  Batch [90/574] - Loss: 0.7940
+  Batch [100/574] - Loss: 0.7235
+  Batch [110/574] - Loss: 0.8314
+  Batch [120/574] - Loss: 0.7543
+  Batch [130/574] - Loss: 0.5907
+  Batch [140/574] - Loss: 0.6683
+  Batch [150/574] - Loss: 0.7109
+  Batch [160/574] - Loss: 0.8251
+  Batch [170/574] - Loss: 0.8441
+  Batch [180/574] - Loss: 0.5990
+  Batch [190/574] - Loss: 0.6802
+  Batch [200/574] - Loss: 0.5858
+  Batch [210/574] - Loss: 0.7288
+  Batch [220/574] - Loss: 0.5889
+  Batch [230/574] - Loss: 0.4364
+  Batch [240/574] - Loss: 0.6643
+  Batch [250/574] - Loss: 0.5969
+  Batch [260/574] - Loss: 0.5147
+  Batch [270/574] - Loss: 0.6247
+  Batch [280/574] - Loss: 0.5611
+  Batch [290/574] - Loss: 0.5817
+  Batch [300/574] - Loss: 0.5110
+  Batch [310/574] - Loss: 0.7396
+  Batch [320/574] - Loss: 0.3152
+  Batch [330/574] - Loss: 0.5544
+  Batch [340/574] - Loss: 0.4736
+  Batch [350/574] - Loss: 0.5425
+  Batch [360/574] - Loss: 0.4895
+  Batch [370/574] - Loss: 0.3819
+  Batch [380/574] - Loss: 0.6441
+  Batch [390/574] - Loss: 0.4566
+  Batch [400/574] - Loss: 0.5423
+  Batch [410/574] - Loss: 0.4717
+  Batch [420/574] - Loss: 0.4928
+  Batch [430/574] - Loss: 0.2900
+  Batch [440/574] - Loss: 0.4230
+  Batch [450/574] - Loss: 0.5299
+  Batch [460/574] - Loss: 0.3273
+  Batch [470/574] - Loss: 0.5053
+  Batch [480/574] - Loss: 0.4183
+  Batch [490/574] - Loss: 0.4634
+  Batch [500/574] - Loss: 0.4404
+  Batch [510/574] - Loss: 0.3821
+  Batch [520/574] - Loss: 0.3342
+  Batch [530/574] - Loss: 0.3508
+  Batch [540/574] - Loss: 0.3732
+  Batch [550/574] - Loss: 0.4248
+  Batch [560/574] - Loss: 0.6420
+  Batch [570/574] - Loss: 0.6257
+  Batch [574/574] - Loss: 0.6799
+Training complete - Accuracy: 79.87%
+Validation phase...
+  Batch [10/144]
+  Batch [20/144]
+  Batch [30/144]
+  Batch [40/144]
+  Batch [50/144]
+  Batch [60/144]
+  Batch [70/144]
+  Batch [80/144]
+  Batch [90/144]
+  Batch [100/144]
+  Batch [110/144]
+  Batch [120/144]
+  Batch [130/144]
+  Batch [140/144]
+  Batch [144/144]
+Validation complete - Accuracy: 89.99%
+Saving epoch 1 results...
+
+============================================================
+Starting Epoch [2/10]
+============================================================
+Training phase...
+  Batch [10/574] - Loss: 0.2744
+  Batch [20/574] - Loss: 0.5678
+  Batch [30/574] - Loss: 0.3132
+  Batch [40/574] - Loss: 0.3760
+  Batch [50/574] - Loss: 0.2846
+  Batch [60/574] - Loss: 0.5847
+  Batch [70/574] - Loss: 0.7048
+  Batch [80/574] - Loss: 0.5747
+  Batch [90/574] - Loss: 0.4217
+  Batch [100/574] - Loss: 0.4164
+  Batch [110/574] - Loss: 0.3792
+  Batch [120/574] - Loss: 0.4449
+  Batch [130/574] - Loss: 0.3962
+  Batch [140/574] - Loss: 0.4788
+  Batch [150/574] - Loss: 0.3291
+  Batch [160/574] - Loss: 0.5061
+  Batch [170/574] - Loss: 0.4249
+  Batch [180/574] - Loss: 0.4420
+  Batch [190/574] - Loss: 0.3262
+  Batch [200/574] - Loss: 0.4994
+  Batch [210/574] - Loss: 0.1686
+  Batch [220/574] - Loss: 0.1758
+  Batch [230/574] - Loss: 0.3655
+  Batch [240/574] - Loss: 0.3124
+  Batch [250/574] - Loss: 0.5289
+  Batch [260/574] - Loss: 0.4447
+  Batch [270/574] - Loss: 0.1543
+  Batch [280/574] - Loss: 0.2958
+  Batch [290/574] - Loss: 0.6108
+  Batch [300/574] - Loss: 0.2423
+  Batch [310/574] - Loss: 0.5041
+  Batch [320/574] - Loss: 0.3490
+  Batch [330/574] - Loss: 0.3230
+  Batch [340/574] - Loss: 0.3049
+  Batch [350/574] - Loss: 0.2761
+  Batch [360/574] - Loss: 0.6524
+  Batch [370/574] - Loss: 0.2655
+  Batch [380/574] - Loss: 0.2917
+  Batch [390/574] - Loss: 0.4336
+  Batch [400/574] - Loss: 0.5373
+  Batch [410/574] - Loss: 0.3825
+  Batch [420/574] - Loss: 0.4353
+  Batch [430/574] - Loss: 0.5342
+  Batch [440/574] - Loss: 0.3356
+  Batch [450/574] - Loss: 0.3132
+  Batch [460/574] - Loss: 0.2568
+  Batch [470/574] - Loss: 0.5101
+  Batch [480/574] - Loss: 0.2969
+  Batch [490/574] - Loss: 0.3462
+  Batch [500/574] - Loss: 0.2917
+  Batch [510/574] - Loss: 0.2893
+  Batch [520/574] - Loss: 0.3299
+  Batch [530/574] - Loss: 0.3070
+  Batch [540/574] - Loss: 0.3660
+  Batch [550/574] - Loss: 0.3736
+  Batch [560/574] - Loss: 0.2261
+  Batch [570/574] - Loss: 0.2292
+  Batch [574/574] - Loss: 0.2555
+Training complete - Accuracy: 87.55%
+Validation phase...
+  Batch [10/144]
+  Batch [20/144]
+  Batch [30/144]
+  Batch [40/144]
+  Batch [50/144]
+  Batch [60/144]
+  Batch [70/144]
+  Batch [80/144]
+  Batch [90/144]
+  Batch [100/144]
+  Batch [110/144]
+  Batch [120/144]
+  Batch [130/144]
+  Batch [140/144]
+  Batch [144/144]
+Validation complete - Accuracy: 89.99%
+Saving epoch 2 results...
+
+============================================================
+Starting Epoch [3/10]
+============================================================
+Training phase...
+  Batch [10/574] - Loss: 0.3859
+  Batch [20/574] - Loss: 0.2870
+  Batch [30/574] - Loss: 0.1377
+  Batch [40/574] - Loss: 0.3303
+  Batch [50/574] - Loss: 0.2943
+  Batch [60/574] - Loss: 0.3919
+  Batch [70/574] - Loss: 0.3429
+  Batch [80/574] - Loss: 0.3381
+  Batch [90/574] - Loss: 0.2789
+  Batch [100/574] - Loss: 0.1685
+  Batch [110/574] - Loss: 0.3932
+  Batch [120/574] - Loss: 0.2355
+  Batch [130/574] - Loss: 0.2670
+  Batch [140/574] - Loss: 0.2125
+  Batch [150/574] - Loss: 0.2049
+  Batch [160/574] - Loss: 0.1987
+  Batch [170/574] - Loss: 0.3978
+  Batch [180/574] - Loss: 0.3484
+  Batch [190/574] - Loss: 0.2773
+  Batch [200/574] - Loss: 0.2983
+  Batch [210/574] - Loss: 0.5649
+  Batch [220/574] - Loss: 0.6258
+  Batch [230/574] - Loss: 0.2642
+  Batch [240/574] - Loss: 0.2974
+  Batch [250/574] - Loss: 0.2414
+  Batch [260/574] - Loss: 0.2923
+  Batch [270/574] - Loss: 0.4779
+  Batch [280/574] - Loss: 0.1881
+  Batch [290/574] - Loss: 0.4801
+  Batch [300/574] - Loss: 1.0005
+  Batch [310/574] - Loss: 0.3111
+  Batch [320/574] - Loss: 0.2372
+  Batch [330/574] - Loss: 0.3201
+  Batch [340/574] - Loss: 0.4347
+  Batch [350/574] - Loss: 0.3821
+  Batch [360/574] - Loss: 0.3240
+  Batch [370/574] - Loss: 0.5327
+  Batch [380/574] - Loss: 0.2408
+  Batch [390/574] - Loss: 0.2459
+  Batch [400/574] - Loss: 0.3630
+  Batch [410/574] - Loss: 0.2499
+  Batch [420/574] - Loss: 0.1700
+  Batch [430/574] - Loss: 0.3940
+  Batch [440/574] - Loss: 0.1674
+  Batch [450/574] - Loss: 0.4586
+  Batch [460/574] - Loss: 0.3868
+  Batch [470/574] - Loss: 0.4971
+  Batch [480/574] - Loss: 0.2791
+  Batch [490/574] - Loss: 0.1519
+  Batch [500/574] - Loss: 0.2385
+  Batch [510/574] - Loss: 0.1630
+  Batch [520/574] - Loss: 0.1799
+  Batch [530/574] - Loss: 0.3492
+  Batch [540/574] - Loss: 0.3160
+  Batch [550/574] - Loss: 0.6056
+  Batch [560/574] - Loss: 0.2757
+  Batch [570/574] - Loss: 0.2390
+  Batch [574/574] - Loss: 0.2324
+Training complete - Accuracy: 88.48%
+Validation phase...
+  Batch [10/144]
+  Batch [20/144]
+  Batch [30/144]
+  Batch [40/144]
+  Batch [50/144]
+  Batch [60/144]
+  Batch [70/144]
+  Batch [80/144]
+  Batch [90/144]
+  Batch [100/144]
+  Batch [110/144]
+  Batch [120/144]
+  Batch [130/144]
+  Batch [140/144]
+  Batch [144/144]
+Validation complete - Accuracy: 92.26%
+Saving epoch 3 results...
+
+============================================================
+Starting Epoch [4/10]
+============================================================
+Training phase...
+  Batch [10/574] - Loss: 0.2450
+  Batch [20/574] - Loss: 0.3582
+  Batch [30/574] - Loss: 0.5894
+  Batch [40/574] - Loss: 0.2039
+  Batch [50/574] - Loss: 0.3557
+  Batch [60/574] - Loss: 0.4612
+  Batch [70/574] - Loss: 0.4095
+  Batch [80/574] - Loss: 0.2477
+  Batch [90/574] - Loss: 0.2621
+  Batch [100/574] - Loss: 0.1760
+  Batch [110/574] - Loss: 0.3632
+  Batch [120/574] - Loss: 0.3935
+  Batch [130/574] - Loss: 0.4528
+  Batch [140/574] - Loss: 0.1823
+  Batch [150/574] - Loss: 0.2402
+  Batch [160/574] - Loss: 0.4733
+  Batch [170/574] - Loss: 0.2970
+  Batch [180/574] - Loss: 0.3421
+  Batch [190/574] - Loss: 0.4320
+  Batch [200/574] - Loss: 0.3346
+  Batch [210/574] - Loss: 0.3668
+  Batch [220/574] - Loss: 0.2151
+  Batch [230/574] - Loss: 0.2625
+  Batch [240/574] - Loss: 0.3370
+  Batch [250/574] - Loss: 0.2362
+  Batch [260/574] - Loss: 0.2938
+  Batch [270/574] - Loss: 0.5066
+  Batch [280/574] - Loss: 0.4065
+  Batch [290/574] - Loss: 0.1286
+  Batch [300/574] - Loss: 0.2549
+  Batch [310/574] - Loss: 0.3318
+  Batch [320/574] - Loss: 0.1426
+  Batch [330/574] - Loss: 0.3962
+  Batch [340/574] - Loss: 0.4400
+  Batch [350/574] - Loss: 0.6359
+  Batch [360/574] - Loss: 0.3343
+  Batch [370/574] - Loss: 0.4614
+  Batch [380/574] - Loss: 0.2844
+  Batch [390/574] - Loss: 0.4281
+  Batch [400/574] - Loss: 0.1685
+  Batch [410/574] - Loss: 0.2217
+  Batch [420/574] - Loss: 0.2271
+  Batch [430/574] - Loss: 0.2609
+  Batch [440/574] - Loss: 0.5235
+  Batch [450/574] - Loss: 0.2852
+  Batch [460/574] - Loss: 0.3121
+  Batch [470/574] - Loss: 0.2808
+  Batch [480/574] - Loss: 0.1978
+  Batch [490/574] - Loss: 0.3543
+  Batch [500/574] - Loss: 0.0963
+  Batch [510/574] - Loss: 0.3178
+  Batch [520/574] - Loss: 0.2903
+  Batch [530/574] - Loss: 0.1703
+  Batch [540/574] - Loss: 0.5336
+  Batch [550/574] - Loss: 0.3198
+  Batch [560/574] - Loss: 0.2765
+  Batch [570/574] - Loss: 0.1637
+  Batch [574/574] - Loss: 1.0579
+Training complete - Accuracy: 89.15%
+Validation phase...
+  Batch [10/144]
+  Batch [20/144]
+  Batch [30/144]
+  Batch [40/144]
+  Batch [50/144]
+  Batch [60/144]
+  Batch [70/144]
+  Batch [80/144]
+  Batch [90/144]
+  Batch [100/144]
+  Batch [110/144]
+  Batch [120/144]
+  Batch [130/144]
+  Batch [140/144]
+  Batch [144/144]
+Validation complete - Accuracy: 91.60%
+Saving epoch 4 results...
+
+============================================================
+Starting Epoch [5/10]
+============================================================
+Training phase...
+  Batch [10/574] - Loss: 0.3172
+  Batch [20/574] - Loss: 0.2380
+  Batch [30/574] - Loss: 0.2919
+  Batch [40/574] - Loss: 0.4032
+  Batch [50/574] - Loss: 0.2593
+  Batch [60/574] - Loss: 0.1076
+  Batch [70/574] - Loss: 0.2703
+  Batch [80/574] - Loss: 0.1541
+  Batch [90/574] - Loss: 0.2797
+  Batch [100/574] - Loss: 0.3709
+  Batch [110/574] - Loss: 0.1857
+  Batch [120/574] - Loss: 0.1742
+  Batch [130/574] - Loss: 0.6218
+  Batch [140/574] - Loss: 0.2510
+  Batch [150/574] - Loss: 0.2685
+  Batch [160/574] - Loss: 0.6673
+  Batch [170/574] - Loss: 0.4436
+  Batch [180/574] - Loss: 0.3191
+  Batch [190/574] - Loss: 0.4475
+  Batch [200/574] - Loss: 0.2026
+  Batch [210/574] - Loss: 0.0910
+  Batch [220/574] - Loss: 0.3036
+  Batch [230/574] - Loss: 0.1957
+  Batch [240/574] - Loss: 0.1904
+  Batch [250/574] - Loss: 0.1283
+  Batch [260/574] - Loss: 0.2754
+  Batch [270/574] - Loss: 0.4074
+  Batch [280/574] - Loss: 0.3259
+  Batch [290/574] - Loss: 0.3316
+  Batch [300/574] - Loss: 0.1149
+  Batch [310/574] - Loss: 0.2930
+  Batch [320/574] - Loss: 0.3875
+  Batch [330/574] - Loss: 0.1212
+  Batch [340/574] - Loss: 0.2459
+  Batch [350/574] - Loss: 0.2934
+  Batch [360/574] - Loss: 0.3076
+  Batch [370/574] - Loss: 0.3092
+  Batch [380/574] - Loss: 0.4081
+  Batch [390/574] - Loss: 0.1902
+  Batch [400/574] - Loss: 0.3301
+  Batch [410/574] - Loss: 0.3765
+  Batch [420/574] - Loss: 0.2250
+  Batch [430/574] - Loss: 0.1202
+  Batch [440/574] - Loss: 0.1769
+  Batch [450/574] - Loss: 0.5415
+  Batch [460/574] - Loss: 0.3102
+  Batch [470/574] - Loss: 0.2552
+  Batch [480/574] - Loss: 0.1684
+  Batch [490/574] - Loss: 0.0552
+  Batch [500/574] - Loss: 0.2212
+  Batch [510/574] - Loss: 0.2831
+  Batch [520/574] - Loss: 0.2967
+  Batch [530/574] - Loss: 0.3957
+  Batch [540/574] - Loss: 0.3180
+  Batch [550/574] - Loss: 0.5267
+  Batch [560/574] - Loss: 0.2586
+  Batch [570/574] - Loss: 0.0874
+  Batch [574/574] - Loss: 1.1179
+Training complete - Accuracy: 90.06%
+Validation phase...
+  Batch [10/144]
+  Batch [20/144]
+  Batch [30/144]
+  Batch [40/144]
+  Batch [50/144]
+  Batch [60/144]
+  Batch [70/144]
+  Batch [80/144]
+  Batch [90/144]
+  Batch [100/144]
+  Batch [110/144]
+  Batch [120/144]
+  Batch [130/144]
+  Batch [140/144]
+  Batch [144/144]
+Validation complete - Accuracy: 92.02%
+Saving epoch 5 results...
+
+============================================================
+Starting Epoch [6/10]
+============================================================
+Training phase...
+  Batch [10/574] - Loss: 0.6271
+  Batch [20/574] - Loss: 0.2213
+  Batch [30/574] - Loss: 0.4681
+  Batch [40/574] - Loss: 0.1813
+  Batch [50/574] - Loss: 0.2003
+  Batch [60/574] - Loss: 0.1447
+  Batch [70/574] - Loss: 0.1075
+  Batch [80/574] - Loss: 0.1953
+  Batch [90/574] - Loss: 0.1460
+  Batch [100/574] - Loss: 0.2058
+  Batch [110/574] - Loss: 0.2479
+  Batch [120/574] - Loss: 0.3603
+  Batch [130/574] - Loss: 0.1426
+  Batch [140/574] - Loss: 0.2893
+  Batch [150/574] - Loss: 0.1298
+  Batch [160/574] - Loss: 0.3349
+  Batch [170/574] - Loss: 0.2882
+  Batch [180/574] - Loss: 0.4019
+  Batch [190/574] - Loss: 0.3722
+  Batch [200/574] - Loss: 0.3377
+  Batch [210/574] - Loss: 0.4170
+  Batch [220/574] - Loss: 0.2437
+  Batch [230/574] - Loss: 0.3460
+  Batch [240/574] - Loss: 0.2478
+  Batch [250/574] - Loss: 0.2674
+  Batch [260/574] - Loss: 0.3382
+  Batch [270/574] - Loss: 0.4008
+  Batch [280/574] - Loss: 0.2353
+  Batch [290/574] - Loss: 0.2807
+  Batch [300/574] - Loss: 0.3844
+  Batch [310/574] - Loss: 0.1461
+  Batch [320/574] - Loss: 0.3007
+  Batch [330/574] - Loss: 0.4331
+  Batch [340/574] - Loss: 0.3160
+  Batch [350/574] - Loss: 0.2078
+  Batch [360/574] - Loss: 0.2028
+  Batch [370/574] - Loss: 0.4765
+  Batch [380/574] - Loss: 0.3625
+  Batch [390/574] - Loss: 0.4016
+  Batch [400/574] - Loss: 0.5311
+  Batch [410/574] - Loss: 0.3450
+  Batch [420/574] - Loss: 0.4675
+  Batch [430/574] - Loss: 0.5013
+  Batch [440/574] - Loss: 0.2260
+  Batch [450/574] - Loss: 0.2852
+  Batch [460/574] - Loss: 0.4282
+  Batch [470/574] - Loss: 0.1792
+  Batch [480/574] - Loss: 0.3236
+  Batch [490/574] - Loss: 0.3578
+  Batch [500/574] - Loss: 0.3910
+  Batch [510/574] - Loss: 0.4697
+  Batch [520/574] - Loss: 0.2175
+  Batch [530/574] - Loss: 0.1810
+  Batch [540/574] - Loss: 0.3779
+  Batch [550/574] - Loss: 0.4847
+  Batch [560/574] - Loss: 0.3229
+  Batch [570/574] - Loss: 0.2667
+  Batch [574/574] - Loss: 0.1188
+Training complete - Accuracy: 89.49%
+Validation phase...
+  Batch [10/144]
+  Batch [20/144]
+  Batch [30/144]
+  Batch [40/144]
+  Batch [50/144]
+  Batch [60/144]
+  Batch [70/144]
+  Batch [80/144]
+  Batch [90/144]
+  Batch [100/144]
+  Batch [110/144]
+  Batch [120/144]
+  Batch [130/144]
+  Batch [140/144]
+  Batch [144/144]
+Validation complete - Accuracy: 92.58%
+Saving epoch 6 results...
+
+============================================================
+Starting Epoch [7/10]
+============================================================
+Training phase...
+  Batch [10/574] - Loss: 0.1931
+  Batch [20/574] - Loss: 0.4787
+  Batch [30/574] - Loss: 0.0848
+  Batch [40/574] - Loss: 0.3363
+  Batch [50/574] - Loss: 0.4786
+  Batch [60/574] - Loss: 0.2274
+  Batch [70/574] - Loss: 0.3433
+  Batch [80/574] - Loss: 0.1814
+  Batch [90/574] - Loss: 0.2648
+  Batch [100/574] - Loss: 0.1067
+  Batch [110/574] - Loss: 0.3183
+  Batch [120/574] - Loss: 0.1785
+  Batch [130/574] - Loss: 0.2154
+  Batch [140/574] - Loss: 0.3363
+  Batch [150/574] - Loss: 0.2756
+  Batch [160/574] - Loss: 0.1654
+  Batch [170/574] - Loss: 0.3989
+  Batch [180/574] - Loss: 0.2071
+  Batch [190/574] - Loss: 0.1161
+  Batch [200/574] - Loss: 0.0808
+  Batch [210/574] - Loss: 0.3811
+  Batch [220/574] - Loss: 0.0715
+  Batch [230/574] - Loss: 0.3436
+  Batch [240/574] - Loss: 0.1968
+  Batch [250/574] - Loss: 0.1594
+  Batch [260/574] - Loss: 0.3019
+  Batch [270/574] - Loss: 0.3845
+  Batch [280/574] - Loss: 0.1314
+  Batch [290/574] - Loss: 0.1411
+  Batch [300/574] - Loss: 0.2122
+  Batch [310/574] - Loss: 0.4044
+  Batch [320/574] - Loss: 0.2315
+  Batch [330/574] - Loss: 0.5464
+  Batch [340/574] - Loss: 0.2423
+  Batch [350/574] - Loss: 0.3108
+  Batch [360/574] - Loss: 0.2936
+  Batch [370/574] - Loss: 0.1681
+  Batch [380/574] - Loss: 0.7551
+  Batch [390/574] - Loss: 0.3639
+  Batch [400/574] - Loss: 0.5470
+  Batch [410/574] - Loss: 0.2986
+  Batch [420/574] - Loss: 0.4361
+  Batch [430/574] - Loss: 0.6264
+  Batch [440/574] - Loss: 0.4675
+  Batch [450/574] - Loss: 0.2983
+  Batch [460/574] - Loss: 0.2211
+  Batch [470/574] - Loss: 0.2590
+  Batch [480/574] - Loss: 0.3824
+  Batch [490/574] - Loss: 0.3662
+  Batch [500/574] - Loss: 0.4565
+  Batch [510/574] - Loss: 0.3809
+  Batch [520/574] - Loss: 0.1201
+  Batch [530/574] - Loss: 0.1376
+  Batch [540/574] - Loss: 0.2235
+  Batch [550/574] - Loss: 0.4917
+  Batch [560/574] - Loss: 0.2130
+  Batch [570/574] - Loss: 0.2277
+  Batch [574/574] - Loss: 1.1743
+Training complete - Accuracy: 89.88%
+Validation phase...
+  Batch [10/144]
+  Batch [20/144]
+  Batch [30/144]
+  Batch [40/144]
+  Batch [50/144]
+  Batch [60/144]
+  Batch [70/144]
+  Batch [80/144]
+  Batch [90/144]
+  Batch [100/144]
+  Batch [110/144]
+  Batch [120/144]
+  Batch [130/144]
+  Batch [140/144]
+  Batch [144/144]
+Validation complete - Accuracy: 92.65%
+Saving epoch 7 results...
+
+============================================================
+Starting Epoch [8/10]
+============================================================
+Training phase...
+  Batch [10/574] - Loss: 0.1517
+  Batch [20/574] - Loss: 0.2257
+  Batch [30/574] - Loss: 0.1512
+  Batch [40/574] - Loss: 0.2337
+  Batch [50/574] - Loss: 0.4132
+  Batch [60/574] - Loss: 0.4073
+  Batch [70/574] - Loss: 0.6294
+  Batch [80/574] - Loss: 0.1568
+  Batch [90/574] - Loss: 0.1395
+  Batch [100/574] - Loss: 0.1888
+  Batch [110/574] - Loss: 0.3428
+  Batch [120/574] - Loss: 0.1389
+  Batch [130/574] - Loss: 0.1677
+  Batch [140/574] - Loss: 0.0524
+  Batch [150/574] - Loss: 0.2387
+  Batch [160/574] - Loss: 0.4154
+  Batch [170/574] - Loss: 0.5423
+  Batch [180/574] - Loss: 0.2016
+  Batch [190/574] - Loss: 0.2961
+  Batch [200/574] - Loss: 0.0661
+  Batch [210/574] - Loss: 0.3253
+  Batch [220/574] - Loss: 0.3724
+  Batch [230/574] - Loss: 0.2818
+  Batch [240/574] - Loss: 0.5725
+  Batch [250/574] - Loss: 0.3229
+  Batch [260/574] - Loss: 0.3259
+  Batch [270/574] - Loss: 0.0777
+  Batch [280/574] - Loss: 0.1587
+  Batch [290/574] - Loss: 0.1205
+  Batch [300/574] - Loss: 0.3714
+  Batch [310/574] - Loss: 0.3957
+  Batch [320/574] - Loss: 0.1880
+  Batch [330/574] - Loss: 0.3994
+  Batch [340/574] - Loss: 0.2526
+  Batch [350/574] - Loss: 0.4760
+  Batch [360/574] - Loss: 0.2818
+  Batch [370/574] - Loss: 0.2379
+  Batch [380/574] - Loss: 0.3155
+  Batch [390/574] - Loss: 0.2251
+  Batch [400/574] - Loss: 0.4561
+  Batch [410/574] - Loss: 0.2622
+  Batch [420/574] - Loss: 0.3309
+  Batch [430/574] - Loss: 0.2998
+  Batch [440/574] - Loss: 0.1534
+  Batch [450/574] - Loss: 0.1964
+  Batch [460/574] - Loss: 0.3512
+  Batch [470/574] - Loss: 0.2187
+  Batch [480/574] - Loss: 0.1942
+  Batch [490/574] - Loss: 0.2266
+  Batch [500/574] - Loss: 0.4509
+  Batch [510/574] - Loss: 0.5051
+  Batch [520/574] - Loss: 0.2476
+  Batch [530/574] - Loss: 0.0552
+  Batch [540/574] - Loss: 0.4456
+  Batch [550/574] - Loss: 0.2335
+  Batch [560/574] - Loss: 0.3166
+  Batch [570/574] - Loss: 0.2457
+  Batch [574/574] - Loss: 0.3927
+Training complete - Accuracy: 89.67%
+Validation phase...
+  Batch [10/144]
+  Batch [20/144]
+  Batch [30/144]
+  Batch [40/144]
+  Batch [50/144]
+  Batch [60/144]
+  Batch [70/144]
+  Batch [80/144]
+  Batch [90/144]
+  Batch [100/144]
+  Batch [110/144]
+  Batch [120/144]
+  Batch [130/144]
+  Batch [140/144]
+  Batch [144/144]
+Validation complete - Accuracy: 93.20%
+Saving epoch 8 results...
+
+============================================================
+Starting Epoch [9/10]
+============================================================
+Training phase...
+  Batch [10/574] - Loss: 0.4283
+  Batch [20/574] - Loss: 0.1853
+  Batch [30/574] - Loss: 0.5116
+  Batch [40/574] - Loss: 0.3522
+  Batch [50/574] - Loss: 0.5605
+  Batch [60/574] - Loss: 0.1640
+  Batch [70/574] - Loss: 0.2374
+  Batch [80/574] - Loss: 0.2444
+  Batch [90/574] - Loss: 0.0984
+  Batch [100/574] - Loss: 0.3928
+  Batch [110/574] - Loss: 0.4268
+  Batch [120/574] - Loss: 0.3592
+  Batch [130/574] - Loss: 0.6951
+  Batch [140/574] - Loss: 0.2873
+  Batch [150/574] - Loss: 0.2294
+  Batch [160/574] - Loss: 0.4446
+  Batch [170/574] - Loss: 0.3875
+  Batch [180/574] - Loss: 0.1994
+  Batch [190/574] - Loss: 0.0478
+  Batch [200/574] - Loss: 0.3361
+  Batch [210/574] - Loss: 0.2186
+  Batch [220/574] - Loss: 0.1800
+  Batch [230/574] - Loss: 0.6256
+  Batch [240/574] - Loss: 0.3512
+  Batch [250/574] - Loss: 0.4666
+  Batch [260/574] - Loss: 0.7083
+  Batch [270/574] - Loss: 0.3090
+  Batch [280/574] - Loss: 0.4355
+  Batch [290/574] - Loss: 0.1642
+  Batch [300/574] - Loss: 0.2747
+  Batch [310/574] - Loss: 0.1983
+  Batch [320/574] - Loss: 0.3682
+  Batch [330/574] - Loss: 0.3719
+  Batch [340/574] - Loss: 0.0483
+  Batch [350/574] - Loss: 0.4976
+  Batch [360/574] - Loss: 0.1377
+  Batch [370/574] - Loss: 0.4592
+  Batch [380/574] - Loss: 0.4987
+  Batch [390/574] - Loss: 0.1720
+  Batch [400/574] - Loss: 0.1767
+  Batch [410/574] - Loss: 0.1229
+  Batch [420/574] - Loss: 0.2259
+  Batch [430/574] - Loss: 0.2627
+  Batch [440/574] - Loss: 0.1342
+  Batch [450/574] - Loss: 0.3529
+  Batch [460/574] - Loss: 0.1709
+  Batch [470/574] - Loss: 0.2444
+  Batch [480/574] - Loss: 0.3809
+  Batch [490/574] - Loss: 0.1213
+  Batch [500/574] - Loss: 0.1567
+  Batch [510/574] - Loss: 0.1001
+  Batch [520/574] - Loss: 0.3144
+  Batch [530/574] - Loss: 0.3851
+  Batch [540/574] - Loss: 0.2089
+  Batch [550/574] - Loss: 0.1594
+  Batch [560/574] - Loss: 0.4515
+  Batch [570/574] - Loss: 0.3984
+  Batch [574/574] - Loss: 0.4435
+Training complete - Accuracy: 90.01%
+Validation phase...
+  Batch [10/144]
+  Batch [20/144]
+  Batch [30/144]
+  Batch [40/144]
+  Batch [50/144]
+  Batch [60/144]
+  Batch [70/144]
+  Batch [80/144]
+  Batch [90/144]
+  Batch [100/144]
+  Batch [110/144]
+  Batch [120/144]
+  Batch [130/144]
+  Batch [140/144]
+  Batch [144/144]
+Validation complete - Accuracy: 93.46%
+Saving epoch 9 results...
+
+============================================================
+Starting Epoch [10/10]
+============================================================
+Training phase...
+  Batch [10/574] - Loss: 0.0719
+  Batch [20/574] - Loss: 0.2444
+  Batch [30/574] - Loss: 0.1957
+  Batch [40/574] - Loss: 0.0944
+  Batch [50/574] - Loss: 0.3971
+  Batch [60/574] - Loss: 0.3342
+  Batch [70/574] - Loss: 0.1862
+  Batch [80/574] - Loss: 0.2689
+  Batch [90/574] - Loss: 0.0701
+  Batch [100/574] - Loss: 0.2553
+  Batch [110/574] - Loss: 0.4994
+  Batch [120/574] - Loss: 0.2073
+  Batch [130/574] - Loss: 0.1478
+  Batch [140/574] - Loss: 0.2079
+  Batch [150/574] - Loss: 0.9515
+  Batch [160/574] - Loss: 0.3159
+  Batch [170/574] - Loss: 0.1608
+  Batch [180/574] - Loss: 0.3812
+  Batch [190/574] - Loss: 0.1565
+  Batch [200/574] - Loss: 0.1497
+  Batch [210/574] - Loss: 0.1651
+  Batch [220/574] - Loss: 0.3698
+  Batch [230/574] - Loss: 0.3215
+  Batch [240/574] - Loss: 0.0793
+  Batch [250/574] - Loss: 0.2983
+  Batch [260/574] - Loss: 0.2560
+  Batch [270/574] - Loss: 0.2498
+  Batch [280/574] - Loss: 0.1155
+  Batch [290/574] - Loss: 0.1980
+  Batch [300/574] - Loss: 0.3467
+  Batch [310/574] - Loss: 0.2851
+  Batch [320/574] - Loss: 0.3484
+  Batch [330/574] - Loss: 0.3173
+  Batch [340/574] - Loss: 0.1709
+  Batch [350/574] - Loss: 0.1567
+  Batch [360/574] - Loss: 0.6065
+  Batch [370/574] - Loss: 0.2039
+  Batch [380/574] - Loss: 0.1991
+  Batch [390/574] - Loss: 0.1760
+  Batch [400/574] - Loss: 0.1496
+  Batch [410/574] - Loss: 0.7040
+  Batch [420/574] - Loss: 0.2625
+  Batch [430/574] - Loss: 0.4321
+  Batch [440/574] - Loss: 0.2782
+  Batch [450/574] - Loss: 0.3329
+  Batch [460/574] - Loss: 0.6614
+  Batch [470/574] - Loss: 0.2217
+  Batch [480/574] - Loss: 0.2576
+  Batch [490/574] - Loss: 0.2241
+  Batch [500/574] - Loss: 0.3628
+  Batch [510/574] - Loss: 0.3947
+  Batch [520/574] - Loss: 0.2852
+  Batch [530/574] - Loss: 0.3053
+  Batch [540/574] - Loss: 0.4077
+  Batch [550/574] - Loss: 0.2915
+  Batch [560/574] - Loss: 0.0682
+  Batch [570/574] - Loss: 0.3700
+  Batch [574/574] - Loss: 0.4172
+Training complete - Accuracy: 90.55%
+Validation phase...
+  Batch [10/144]
+  Batch [20/144]
+  Batch [30/144]
+  Batch [40/144]
+  Batch [50/144]
+  Batch [60/144]
+  Batch [70/144]
+  Batch [80/144]
+  Batch [90/144]
+  Batch [100/144]
+  Batch [110/144]
+  Batch [120/144]
+  Batch [130/144]
+  Batch [140/144]
+  Batch [144/144]
+Validation complete - Accuracy: 93.39%
+Saving epoch 10 results...
+
+============================================================
+TRAINING COMPLETE - ALL EPOCH RESULTS:
+============================================================
+Epoch [1/10] Loss: 388.2709 Train Acc: 79.87% Val Acc: 89.99%
+Epoch [2/10] Loss: 219.3360 Train Acc: 87.55% Val Acc: 89.99%
+Epoch [3/10] Loss: 195.8488 Train Acc: 88.48% Val Acc: 92.26%
+Epoch [4/10] Loss: 185.3318 Train Acc: 89.15% Val Acc: 91.60%
+Epoch [5/10] Loss: 171.6711 Train Acc: 90.06% Val Acc: 92.02%
+Epoch [6/10] Loss: 172.7621 Train Acc: 89.49% Val Acc: 92.58%
+Epoch [7/10] Loss: 170.4095 Train Acc: 89.88% Val Acc: 92.65%
+Epoch [8/10] Loss: 168.7694 Train Acc: 89.67% Val Acc: 93.20%
+Epoch [9/10] Loss: 166.5575 Train Acc: 90.01% Val Acc: 93.46%
+Epoch [10/10] Loss: 160.9362 Train Acc: 90.55% Val Acc: 93.39%
+
+============================================================
+BEST MODEL: Epoch 9
+Best Validation Accuracy: 93.46%
+Best Train Accuracy: 90.01%
+Best Loss: 166.5575
+============================================================
+Best model saved to 'best_tomato_model.pth'!
+Press any key to continue . . .
